@@ -1,0 +1,27 @@
+<!DOKTYPE>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv=X-UA-Compatibile content="IE-edge, chrome=1"/>
+        
+        <script defer src="scripts.js"></script>
+        
+        <title>Praktyki</title>   
+        
+    </head>
+    <body>
+    <form id="form" action="submit.php" method="post">
+        <label for="firstName">Imię:</label><br>
+        <input type="text" id="firstName" name="firstName"><br>
+        <label for="lastName">Nazwisko:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="email">Adres e-mail:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="message">Wiadomość:</label><br>
+        <input type="text" id="message" name="message"><br>
+
+        <button type="submit">Zatwierdź</button>
+        <div id="errorMessage"></div>
+        </form>
+    </body>
+</html>
